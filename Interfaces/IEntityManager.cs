@@ -11,4 +11,5 @@ namespace GameStateManagementSample
         IEntity RequestEntity<T>(IEntity entity) where T : IEntity;
         void RemoveEntity<T>(List<IEntity> entities, IEntity entity) where T : IEntity;
     }
+    
 }
