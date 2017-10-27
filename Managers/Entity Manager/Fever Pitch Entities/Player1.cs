@@ -77,15 +77,7 @@ namespace GameStateManagementSample
                         }
                 }
             }
-            /*
-            if (args.newKeys.Length != 0)
-            {
-                if (args.newKeys[0] == Keys.Space)
-                {
-                    isBullet = true;
-                }
-                }
-             * */
+            
         }
         
         // a method that stops the player from being able to move out of bound, due to their input
