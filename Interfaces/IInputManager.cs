@@ -14,7 +14,7 @@ namespace GameStateManagementSample
     interface IInputManager
     {
         //methods that are to be implemented
-        void GetInput(Keys[] getKeys);//Vector2 getPaddleLoc);
+        void GetInput(Keys[] getKeys);
         void GetKeyUp(Keys[] getKeys);
         void GetSpacebar(Keys[] getKeys);
         void Update();
